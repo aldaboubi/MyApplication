@@ -19,55 +19,120 @@
 
             <EditText
                 android:id="@+id/editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
                 android:hint="Enter Full Name"
                 android:inputType="textPersonName"
-                style="@style/styleEditText" />
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
 
             <EditText
                 android:id="@+id/bdate"
-                android:hint="BirthDate"
-                android:inputType="date"
-                style="@style/styleEditText" />
-
-            <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/spinner2"
-                style="15" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:hint="BirthDate"
+                android:inputType="date"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerListBlood"
+                    android:layout_weight="1"
+                    android:entries="@array/choose_blood"
+                    android:background="@drawable/border_style" />
+
+                />
+
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerGender"
+                    android:layout_weight="1"
+                    android:entries="@array/gender"
+                    android:background="@drawable/border_style" />
+
+                />
+            </LinearLayout>
 
             <EditText
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/editText7"
                 android:hint="Enter Your Location"
-                style="@style/styleEditText"/>
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style"/>
 
             <EditText
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:id="@+id/editText8"
                 android:hint="Enter Your Email"
-                style="@style/styleEditText" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
 
             <EditText
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:id="@+id/editText9"
                 android:hint="Enter Password"
-                style="@style/styleEditText" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
 
             <EditText
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:id="@+id/editText10"
                 android:hint="Confirm Password"
-                style="@style/styleEditText" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
 
             <EditText
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:inputType="phone"
                 android:id="@+id/editText11"
                 android:hint="Enter Mobile Number"
-                style="@style/styleEditText" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
 
             <CheckBox
                 android:layout_width="wrap_content"
