@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context="aldaboubi.myapplication.MainActivity"
+    android:background="#fefefe">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="275dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:id="@+id/imageView"
+            android:background="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="15dp"
+            android:hint="Enter Your Email"
+            android:inputType="text"
+            android:paddingLeft="25dp"
+            android:background="@drawable/border_style"/>
+
+        <EditText
+            android:id="@+id/editText_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:paddingLeft="25dp"
+            android:background="@drawable/border_style" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_design_red"
+            android:textColor="#FFF"
+            android:text="Login"
+            android:id="@+id/btn_login"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:onClick="login"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_design_blue"
+            android:textColor="#FFF"
+            android:text="Login With Facebook"
+            android:id="@+id/btn_facebook"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_design_red"
+            android:textColor="#FFF"
+            android:text="Create New Account"
+            android:id="@+id/btn_register"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:onClick="register"/>
+    </LinearLayout>
+</RelativeLayout>

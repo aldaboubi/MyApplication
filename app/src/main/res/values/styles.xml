@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme2" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/customActionBar</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        // change color bottom editText line
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        // End change color bottom editText line
+
+    </style>
+
+
+    // Style Navigation Drawer
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="icon">@drawable/logo_icon</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        // change color bottom editText line
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        // End change color bottom editText line
+
+    </style>
+
+    // style action bar color and text color :)
+    <style name="customActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:titleTextStyle">@style/customTextColor</item>
+    </style>
+
+    <style name="customTextColor" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    // END style action bar color and text color
+
+
+
+</resources>
