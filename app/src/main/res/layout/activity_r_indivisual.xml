@@ -19,29 +19,15 @@
 
             <EditText
                 android:id="@+id/editText_email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
-                android:layout_marginRight="15dp"
                 android:hint="Enter Full Name"
                 android:inputType="textPersonName"
-                android:paddingLeft="25dp"
-                android:background="@drawable/border_style" />
+                style="@style/styleEditText" />
 
             <EditText
                 android:id="@+id/bdate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
-                android:layout_marginRight="15dp"
                 android:hint="BirthDate"
                 android:inputType="date"
-                android:paddingLeft="25dp"
-                android:background="@drawable/border_style" />
+                style="@style/styleEditText" />
 
             <Spinner
                 android:layout_width="match_parent"
@@ -50,68 +36,38 @@
                 style="15" />
 
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+
                 android:id="@+id/editText7"
                 android:hint="Enter Your Location"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
-                android:layout_marginRight="15dp"
-                android:paddingLeft="25dp"
-                android:background="@drawable/border_style"/>
+                style="@style/styleEditText"/>
 
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+
                 android:inputType="textEmailAddress"
                 android:id="@+id/editText8"
                 android:hint="Enter Your Email"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
-                android:layout_marginRight="15dp"
-                android:paddingLeft="25dp"
-                android:background="@drawable/border_style" />
+                style="@style/styleEditText" />
 
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+
                 android:inputType="textPassword"
                 android:id="@+id/editText9"
                 android:hint="Enter Password"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
-                android:layout_marginRight="15dp"
-                android:paddingLeft="25dp"
-                android:background="@drawable/border_style" />
+                style="@style/styleEditText" />
 
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+
                 android:inputType="textPassword"
                 android:id="@+id/editText10"
                 android:hint="Confirm Password"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
-                android:layout_marginRight="15dp"
-                android:paddingLeft="25dp"
-                android:background="@drawable/border_style" />
+                style="@style/styleEditText" />
 
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+
                 android:inputType="phone"
                 android:id="@+id/editText11"
                 android:hint="Enter Mobile Number"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
-                android:layout_marginRight="15dp"
-                android:paddingLeft="25dp"
-                android:background="@drawable/border_style" />
+                style="@style/styleEditText" />
 
             <CheckBox
                 android:layout_width="wrap_content"

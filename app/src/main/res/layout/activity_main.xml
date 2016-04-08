@@ -22,29 +22,15 @@
 
         <EditText
             android:id="@+id/editText_email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="0dp"
-            android:layout_marginRight="15dp"
             android:hint="Enter Your Email"
             android:inputType="text"
-            android:paddingLeft="25dp"
-            android:background="@drawable/border_style"/>
+            style="@style/styleEditText"/>
 
         <EditText
             android:id="@+id/editText_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginRight="15dp"
             android:hint="Enter Your Password"
             android:inputType="textPassword"
-            android:paddingLeft="25dp"
-            android:background="@drawable/border_style" />
+            style="@style/styleEditText" />
 
         <Button
             android:layout_width="match_parent"
