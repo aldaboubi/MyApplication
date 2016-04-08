@@ -2,6 +2,7 @@
     <string name="app_name">eBlood</string>
     <string name="drawer_open">drawer open</string>
     <string name="drawer_close">drawer close</string>
+    <string name="a">b</string>
 
 
 </resources>
