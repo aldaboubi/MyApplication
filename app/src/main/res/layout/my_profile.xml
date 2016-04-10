@@ -31,7 +31,8 @@
                 android:layout_height="200dp"
                 android:id="@+id/donate"
                 android:layout_gravity="center_horizontal"
-                android:background="#cd0605" />
+                android:background="#cd0605"
+                android:src="@drawable/donate_button1" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -40,7 +41,8 @@
                 android:layout_marginTop="40dp"
                 android:id="@+id/request"
                 android:layout_gravity="center_horizontal"
-                android:background="#cd0606" />
+                android:background="#cd0606"
+                android:src="@drawable/request_button" />
         </LinearLayout>
 
     </LinearLayout>
