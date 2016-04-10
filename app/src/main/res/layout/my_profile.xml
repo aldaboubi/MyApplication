@@ -31,7 +31,7 @@
                 android:layout_height="200dp"
                 android:id="@+id/donate"
                 android:layout_gravity="center_horizontal"
-                android:background="#cd0606" />
+                android:background="#cd0605" />
 
             <ImageButton
                 android:layout_width="wrap_content"
