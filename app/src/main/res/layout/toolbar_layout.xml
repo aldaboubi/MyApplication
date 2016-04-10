@@ -10,7 +10,7 @@
     android:paddingTop="5dp"
     android:id="@+id/toolbar"
 
-    android:background="@android:color/holo_red_dark"
+    android:background="#cd0606"
 
     app:titleTextColor="@color/White"
 
