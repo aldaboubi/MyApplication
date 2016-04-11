@@ -45,27 +45,52 @@
 
             <LinearLayout
                 android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                >
 
-                <Spinner
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Blood Type"
+                    android:id="@+id/textView"
+                    android:layout_gravity="center" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
                     android:id="@+id/spinnerListBlood"
-                    android:layout_weight="1"
                     android:entries="@array/choose_blood"
-                    android:background="@drawable/border_style" />
+                    android:background="@drawable/border_style"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp" />
 
                 />
 
 
-                <Spinner
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Gender"
+                    android:id="@+id/textView3"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
                     android:id="@+id/spinnerGender"
-                    android:layout_weight="1"
                     android:entries="@array/gender"
-                    android:background="@drawable/border_style" />
+                    android:background="@drawable/border_style"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp" />
 
                 />
             </LinearLayout>

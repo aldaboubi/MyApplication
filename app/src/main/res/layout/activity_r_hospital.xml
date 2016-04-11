@@ -6,13 +6,148 @@
     android:id="@+id/hospital_register"
     tools:context="aldaboubi.myapplication.r_hospitalActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Hospital"
-        android:id="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+
+            <EditText
+                android:id="@+id/editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:hint="Enter Full Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Blood Type"
+                    android:id="@+id/textView"
+                    android:layout_gravity="center" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerListBlood"
+                    android:entries="@array/choose_blood"
+                    android:background="@drawable/border_style"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp" />
+
+
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText7"
+                android:hint="Location"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:id="@+id/editText8"
+                android:hint="Email"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/editText9"
+                android:hint="Enter Password"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/editText10"
+                android:hint="Confirm Password"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:id="@+id/editText11"
+                android:hint="Enter Mobile Number"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="25dp"
+                android:background="@drawable/border_style" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Agree"
+                android:id="@+id/checkBox"
+                android:layout_marginLeft="20dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="15dp"
+                android:text="Sign Up"
+                android:id="@+id/button3"
+                android:background="#df1919"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
 </RelativeLayout>
