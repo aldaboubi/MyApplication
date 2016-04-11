@@ -29,7 +29,8 @@
 
         <activity android:name=".r_hospitalActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".RecieveActivity"></activity>
+        <activity android:name=".RecieveActivity" />
+        <activity android:name=".BloodRequestFormActivity"></activity>
     </application>
 
 </manifest>
