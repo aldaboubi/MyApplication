@@ -17,7 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".seconedActivity" />
         <activity android:name=".My_ProfileActivity" />
         <!--
              ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -30,7 +29,14 @@
         <activity android:name=".r_hospitalActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".RecieveActivity" />
-        <activity android:name=".BloodRequestFormActivity"></activity>
+        <activity android:name=".BloodRequestFormActivity" />
+        <activity android:name=".indivisual_register" />
+        <activity android:name=".DonateBlood_A" />
+        <activity android:name=".a1_DonateBlood_Hospital" />
+        <activity android:name=".a2_DonateBlood_Indivisual" />
+        <activity android:name=".B_Request_blood" />
+        <activity android:name=".B1_Request_blood_hospital" />
+        <activity android:name=".B2_Request_blood_Indivisual"></activity>
     </application>
 
 </manifest>

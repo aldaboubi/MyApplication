@@ -9,5 +9,10 @@ public class r_hospitalActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_r_hospital);
+
+
+
+
+
     }
 }

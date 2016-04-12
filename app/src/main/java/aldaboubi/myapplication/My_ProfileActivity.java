@@ -16,7 +16,7 @@ public class My_ProfileActivity extends AppCompatActivity {
     DrawerLayout profileLayout;
     Toolbar toolbar;
     ActionBarDrawerToggle actionBarDrawerToggle;
-    ImageButton request;
+    ImageButton request,Donate;
 
 
     @Override
@@ -41,11 +41,25 @@ public class My_ProfileActivity extends AppCompatActivity {
         request.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent req = new Intent(My_ProfileActivity.this, RecieveActivity.class);
+                Intent req = new Intent(My_ProfileActivity.this, B_Request_blood.class);
                 startActivity(req);
             }
         });
         // image Button go to RecieveActivity
+        //////////////////////////////////////////
+
+        // image Button go to DonateBlood_A
+        Donate = (ImageButton) findViewById(R.id.donate);
+        Donate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent req = new Intent(My_ProfileActivity.this, DonateBlood_A.class);
+                startActivity(req);
+            }
+        });
+        // image Button go to DonateBlood_A
+
+
     }
 
     @Override

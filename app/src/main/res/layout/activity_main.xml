@@ -14,11 +14,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
-            android:layout_width="275dp"
-            android:layout_height="170dp"
+            android:layout_width="143dp"
+            android:layout_height="199dp"
             android:layout_gravity="center"
             android:id="@+id/imageView"
-            android:background="@drawable/logo" />
+            android:background="@drawable/logo_icon" />
 
         <EditText
             android:id="@+id/editText_email"
