@@ -1,10 +1,11 @@
 package aldaboubi.myapplication;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TabHost;
 
-public class A_DonateBlood extends AppCompatActivity {
+public class A_DonateBlood extends Activity {
     TabHost tabHost;
 
     @Override

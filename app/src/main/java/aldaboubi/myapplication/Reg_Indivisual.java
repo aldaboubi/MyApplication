@@ -1,5 +1,6 @@
 package aldaboubi.myapplication;
 
+import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,7 +10,7 @@ import android.widget.EditText;
 
 import java.util.Calendar;
 
-public class Reg_Indivisual extends AppCompatActivity {
+public class Reg_Indivisual extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

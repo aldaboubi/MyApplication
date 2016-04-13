@@ -7,7 +7,7 @@
         android:icon="@drawable/logo_icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme2">
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme2">
@@ -34,7 +34,9 @@
         <activity android:name=".B2_Request_blood_Indivisual" />
         <activity android:name=".Reg_Indivisual" />
         <activity android:name=".Reg_Medical_Institutions" />
-        <activity android:name=".ProfileUsers" />
+        <activity android:name=".ProfileUsers"
+            android:theme="@style/AppTheme"
+            />
         <activity android:name=".ProfileAdmin" />
         <activity android:name=".Profile_Medical_Institutions"></activity>
     </application>
