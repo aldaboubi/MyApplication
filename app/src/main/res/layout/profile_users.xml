@@ -6,8 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="aldaboubi.myapplication.My_ProfileActivity"
-    android:id="@+id/myProfile_layout">
+    tools:context="aldaboubi.myapplication.profile_users"
+    android:id="@+id/profile_users">
 
     <LinearLayout
 

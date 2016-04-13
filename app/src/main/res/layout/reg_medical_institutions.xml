@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/hospital_register"
-    tools:context="aldaboubi.myapplication.r_hospitalActivity">
+    android:id="@+id/reg_medical_institutions"
+
+    tools:context="aldaboubi.myapplication.Reg_Medical_Institutions">
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -31,36 +32,7 @@
                 android:background="@drawable/border_style" />
 
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
-                android:layout_marginRight="15dp"
-                >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Blood Type"
-                    android:id="@+id/textView"
-                    android:layout_gravity="center"
-                    android:layout_weight="1" />
-
-                <Spinner
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/BloodType_SpReg"
-                    android:background="@drawable/border_style"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="15dp" />
-
-
-
-            </LinearLayout>
 
             <EditText
                 android:layout_width="match_parent"
@@ -151,3 +123,4 @@
 
     </ScrollView>
 </RelativeLayout>
+

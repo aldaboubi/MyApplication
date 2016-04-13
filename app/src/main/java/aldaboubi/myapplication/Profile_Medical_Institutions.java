@@ -1,18 +1,13 @@
 package aldaboubi.myapplication;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class r_hospitalActivity extends Activity {
+public class Profile_Medical_Institutions extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_r_hospital);
-
-
-
-
-
+        setContentView(R.layout.profile_medical_institutions);
     }
 }

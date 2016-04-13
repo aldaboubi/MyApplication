@@ -17,7 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".My_ProfileActivity" />
         <!--
              ATTENTION: This was auto-generated to add Google Play services to your project for
              App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -26,17 +25,18 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".r_hospitalActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".RecieveActivity" />
-        <activity android:name=".BloodRequestFormActivity" />
-        <activity android:name=".indivisual_register" />
-        <activity android:name=".DonateBlood_A" />
         <activity android:name=".a1_DonateBlood_Hospital" />
+        <activity android:name=".A_DonateBlood" />
         <activity android:name=".a2_DonateBlood_Indivisual" />
         <activity android:name=".B_Request_blood" />
         <activity android:name=".B1_Request_blood_hospital" />
-        <activity android:name=".B2_Request_blood_Indivisual"></activity>
+        <activity android:name=".B2_Request_blood_Indivisual" />
+        <activity android:name=".Reg_Indivisual" />
+        <activity android:name=".Reg_Medical_Institutions" />
+        <activity android:name=".ProfileUsers" />
+        <activity android:name=".ProfileAdmin" />
+        <activity android:name=".Profile_Medical_Institutions"></activity>
     </application>
 
 </manifest>

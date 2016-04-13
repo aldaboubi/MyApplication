@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 
     }
     public void login(View view){
-        Intent i = new Intent(this, My_ProfileActivity.class);
+        Intent i = new Intent(this, ProfileUsers.class);
         startActivity(i);
 
 

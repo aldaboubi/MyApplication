@@ -2,6 +2,13 @@
     <string name="app_name">eBlood</string>
     <string name="drawer_open">drawer open</string>
     <string name="drawer_close">drawer close</string>
+    <string name="bloodtype">Blood Type</string>
+    <string name="bloodunit">Blood Unit</string>
+    <string name="message">Message</string>
+    <string name="sendrequest">Send Request</string>
+    <string name="must_request1">No Pending Request</string>
+    <string name="must_request2">There are no request pending.\nTo find blood donors, you must request for blood.</string>
+    <string name="request">Request for Blood</string>
 
 
     <string-array name="gender">
@@ -21,5 +28,12 @@
         <item>O-</item>
     </string-array>
 
+
+    <string-array name="bloodunit">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 
 </resources>

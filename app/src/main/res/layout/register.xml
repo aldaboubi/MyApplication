@@ -43,7 +43,7 @@
                     <include
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        layout="@layout/activity_indivisual_register" />
+                        layout="@layout/reg_indivisual" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -55,7 +55,7 @@
                     <include
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        layout="@layout/activity_r_hospital" />
+                        layout="@layout/reg_medical_institutions" />
                 </LinearLayout>
 
             </FrameLayout>

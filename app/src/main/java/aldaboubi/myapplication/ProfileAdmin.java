@@ -3,11 +3,11 @@ package aldaboubi.myapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class BloodRequestFormActivity extends AppCompatActivity {
+public class ProfileAdmin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_blood_request_form);
+        setContentView(R.layout.profile_admin);
     }
 }
