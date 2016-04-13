@@ -34,11 +34,14 @@
         <activity android:name=".B2_Request_blood_Indivisual" />
         <activity android:name=".Reg_Indivisual" />
         <activity android:name=".Reg_Medical_Institutions" />
-        <activity android:name=".ProfileUsers"
-            android:theme="@style/AppTheme"
-            />
+        <activity
+            android:name=".ProfileUsers"
+            android:theme="@style/AppTheme" />
         <activity android:name=".ProfileAdmin" />
-        <activity android:name=".Profile_Medical_Institutions"></activity>
+        <activity android:name=".Profile_Medical_Institutions" />
+        <activity
+            android:name=".testActivity"
+            android:label="@string/title_activity_test"></activity>
     </application>
 
 </manifest>
